@@ -54,6 +54,7 @@ Here are some example map names:
 Alternatively, fog of war can be setup via a call script event command using the fog_of_war global method. Detailed instructions are just before the method itself.
 
 The ranges work as follows:
+
 ```
  range = 0 reveals just the square on which the player stands
 
