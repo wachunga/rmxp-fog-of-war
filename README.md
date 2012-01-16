@@ -1,9 +1,7 @@
 Fog of War (v 2.01)
 ===
 
-A script for [RPG Maker XP](http://en.wikipedia.org/wiki/RPG_Maker_XP), which uses Ruby. Written years ago and posted on some now-defunct forums, but may still be useful to folks.
-
-A map specified as having "fog of war" has tiles that are (fully or partially) obscured until the player gets within visual range. The amount of fog of war to disappear as the player moves depends on the visual range specified. Gamers with experience playing Real Time Strategy games like Warcraft, Age of Empires, etc. should be quite familiar with the concept.
+This script adds "fog of war" to maps. A map specified as having fog of war has tiles that are (fully or partially) obscured until the player gets within visual range. The amount of fog of war to disappear as the player moves depends on the visual range specified. Gamers with experience playing Real Time Strategy games like Warcraft, Age of Empires, etc. should be quite familiar with the concept.
 
 This script supports two kinds of fog of war: static and dynamic.
 
