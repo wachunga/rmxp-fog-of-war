@@ -42,12 +42,13 @@ Usage
 
 There's no need to add the autotile via the database. Just place the file in the autotile folder, import it, and change the FOW_AT_NAME constant to the appropriate filename. To change the colour of the fog of war you must create a new autotile. (However, opacity is customizable by constants below.)
  
-To indicate a map is to have either (or both) of these kinds of fog of war, include <fow> in its name (via "Map properties"). To enable both static and dynamic fow, you can either add nothing more (since it's the default), or add <s><d> (or <d><s>). To enable one or the other, just add the appropriate one (e.g. <s> for static, <d> for dynamic). You may also optionally specify a visual range between 0 and 9 in the map name (e.g. <5>), noting that 3 is  the default.
+To indicate a map is to have either (or both) of these kinds of fog of war, include `<fow>` in its name (via "Map properties"). To enable both static and dynamic fow, you can either add nothing more (since it's the default), or add `<s><d>` (or `<d><s>`). To enable one or the other, just add the appropriate one (e.g. `<s>` for static, `<d>` for dynamic). You may also optionally specify a visual range between 0 and 9 in the map name (e.g. `<5>`), noting that 3 is  the default.
 
 Here are some example map names:
-   "your-map-name <fow><2>" (defaults to static&dynamic on; range specified as 2)
-   "your-map-name <fow><s>" (only static fow is on; range defaults to 3)
-   "your-map-name <fow><d><8>" (only dynamic fow is on; range specified as 8)
+
+* `your-map-name <fow><2>` (defaults to static &amp; dynamic on; range specified as 2)
+* `your-map-name <fow><s>` (only static fow is on; range defaults to 3)
+* `your-map-name <fow><d><8>` (only dynamic fow is on; range specified as 8)
  
 Alternatively, fog of war can be setup via a call script event command using the fog_of_war global method. Detailed instructions are just before the method itself.
 
