@@ -9,7 +9,7 @@ Static fog of war is the kind that typically hides terrain in RTS games. It cove
 
 Dynamic fog of war is identical to the static kind except that it doesn't stay gone forever: as soon as the player leaves visual range of an explored tile, dynamic fog of war covers it again. This kind is typically used to hide enemy units in RTS games.
 
-![Fog of war screenshot](http://s88387243.onlinehome.us/rmxp/fog_of_war/fog_of_war.jpg)
+![Fog of war screenshot](fog_of_war.jpg)
 
 Features
 ---
